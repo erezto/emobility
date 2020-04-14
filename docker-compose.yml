@@ -7,6 +7,7 @@ services:
 
 # Emobility service
   emobility:
+    build: .
     container_name: emobility
     restart: always
     networks:
